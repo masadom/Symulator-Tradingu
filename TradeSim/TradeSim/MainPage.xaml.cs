@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RestSharp;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -12,7 +13,16 @@ namespace TradeSim
     {
         public MainPage()
         {
+            var client = new RestClient("https://rest.coinapi.io/v1/exchangerate/BTC/USD");
+            var request = new RestRequest(Method.GET);
+            request.AddHeader("X-CoinAPI-Key", "73034021-THIS-IS-SAMPLE-KEY");
+            IRestResponse response = client.Execute(request);
+
             InitializeComponent();
         }
+
+
+        
+
     }
 }
