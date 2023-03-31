@@ -17,7 +17,7 @@ namespace TradeSim
             // Call asynchronous network methods in a try/catch block to handle exceptions.
             try
             {
-                HttpResponseMessage response = await client.GetAsync("http://www.contoso.com/");
+                HttpResponseMessage response = await client.GetAsync("api.coincap.io/v2/assets");
                 response.EnsureSuccessStatusCode();
                 string responseBody = await response.Content.ReadAsStringAsync();
                 // Above three lines can be replaced with new helper method below
