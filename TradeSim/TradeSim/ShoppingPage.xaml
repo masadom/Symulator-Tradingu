@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TradeSim.ShoppingPage" Title="Shopping" NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout.Background>
+                <LinearGradientBrush>
+                    <GradientStop Color="#201F1F"
+                          Offset="0.1" />
+                    <GradientStop Color="#151515"
+                          Offset="1.0" />
+                </LinearGradientBrush>
+            </StackLayout.Background>
+            <Label Text="Buy your crypto! "
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                TextColor="#6883BC"
+                FontSize="20"
+                   />
+            <ListView x:Name="listView" HasUnevenRows="True" SeparatorColor="Black">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal" Padding="5">
+                                <Image Source="{Binding cryptoimagesource}"></Image>
+                                <StackLayout HorizontalOptions="StartAndExpand">
+                                    <Label Text="{Binding cryptoname}" TextColor="#2E2E2E" FontSize="25"></Label>
+                                    <Label Text="{Binding cryptostatus}" TextColor="#64C90A" FontSize="17"></Label>
+                                </StackLayout>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Button Text="Back" Clicked="Button_Clicked" BackgroundColor="#64C90A"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

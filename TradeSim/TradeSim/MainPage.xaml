@@ -1,19 +1,66 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TradeSim.MainPage">
+             x:Class="TradeSim.MainPage" Title="MainPage" NavigationPage.HasNavigationBar="False">
 
-    <StackLayout BackgroundColor="White">
-        <Frame BackgroundColor="DarkSlateBlue"
-             CornerRadius="10"
-             WidthRequest="160"
-             HeightRequest="160"
-             VerticalOptions="Start"
-             HorizontalOptions="Center">
+    <StackLayout BackgroundColor="#201F1F">
+        
+        <StackLayout.Background>
+            <LinearGradientBrush>
+                <GradientStop Color="#201F1F"
+                          Offset="0.1" />
+                <GradientStop Color="#151515"
+                          Offset="1.0" />
+            </LinearGradientBrush>
+        </StackLayout.Background>
+        
+        <Frame HeightRequest="200"
+                 WidthRequest="200"
+                 BackgroundColor="#79A7D3"
+                 Margin="20"
+                 CornerRadius="20">
+            
+            <Frame.Background>
+                <LinearGradientBrush EndPoint="1,0">
+                    <GradientStop Color="#5DAEF1"
+                          Offset="0.1" />
+                    <GradientStop Color="#054E8A"
+                          Offset="1.0" />
+                </LinearGradientBrush>
+            </Frame.Background>
 
-            <Label Text="{Binding TotalMoney}"></Label>
+            <Label Text="$960" FontSize="40" HorizontalOptions="Center" VerticalOptions="Start" ></Label>
+
         </Frame>
-
+        
+        <Button Text="Buy" BackgroundColor="#64C90A" Clicked="Button_Clicked"></Button>
+        
+        <Label Text="Your Crypto" FontSize="25" TextColor="#6883BC"></Label>
+        
+        <ListView x:Name="MainPageListView" HasUnevenRows="True" SeparatorColor="Black">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <!--<ViewCell.ContextActions>
+                            <MenuItem 
+                                Text="Sell"
+                                IsDestructive="True"
+                                Clicked="MenuItem_Clicked"
+                                ></MenuItem>
+                        </ViewCell.ContextActions>-->
+                        <StackLayout Orientation="Horizontal" Padding="5">
+                            <Image Source="{Binding cryptoimagesource}"></Image>
+                            <StackLayout HorizontalOptions="StartAndExpand">
+                                <Label Text="{Binding cryptoname}" TextColor="#2E2E2E" FontSize="20"></Label>
+                                <Label Text="{Binding cryptostatus}" TextColor="#64C90A" FontSize="15"></Label>
+                            </StackLayout>
+                            <Button Text="Sell"  BackgroundColor="#C20808" Clicked="CryptoSell_Clicked"></Button>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        
     </StackLayout>
 
 </ContentPage>
