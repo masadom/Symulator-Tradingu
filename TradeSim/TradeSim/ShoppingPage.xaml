@@ -15,7 +15,7 @@
             <Label Text="Buy your crypto! "
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" 
-                TextColor="#6883BC"
+                TextColor="Wheat"
                 FontSize="20"
                    />
             <ListView x:Name="listView" HasUnevenRows="True" SeparatorColor="Black">
@@ -23,17 +23,17 @@
                     <DataTemplate>
                         <ViewCell>
                             <StackLayout Orientation="Horizontal" Padding="5">
-                                <Image Source="{Binding cryptoimagesource}"></Image>
-                                <StackLayout HorizontalOptions="StartAndExpand">
-                                    <Label Text="{Binding cryptoname}" TextColor="#2E2E2E" FontSize="25"></Label>
-                                    <Label Text="{Binding cryptostatus}" TextColor="#64C90A" FontSize="17"></Label>
+                                <!--<Image Source="{Binding cryptoimagesource}"></Image>-->
+                                <StackLayout HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand" Orientation="Horizontal">
+                                    <Button Text="{Binding cryptoname}" TextColor="White" FontSize="25" Clicked="Button_Clicked_buy"/>
+                                    <Label Text="{Binding cryptoprice}" TextColor="ForestGreen" FontSize="25"/>
                                 </StackLayout>
                             </StackLayout>
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
-            <Button Text="Back" Clicked="Button_Clicked" BackgroundColor="#64C90A"></Button>
+            <Button Text="Back" Clicked="Button_Clicked" BackgroundColor="DarkOliveGreen"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

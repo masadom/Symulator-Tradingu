@@ -1,5 +1,7 @@
 ﻿using RetrieveApiDataSample.Services;
 using System;
+using System.Collections.Generic;
+using TradeSim;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -18,6 +20,9 @@ namespace RetrieveApiDataSample
 
             
             RestApiService = new RestService();
+            
+
+
 
         }
 
