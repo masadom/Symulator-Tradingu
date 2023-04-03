@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
-using TradeSim;
 using TradeSim.Models;
 
 namespace RetrieveApiDataSample.Services

@@ -8,7 +8,7 @@ using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
-using TradeSim;
+using TradeSim.Models;
 using Xamarin.Forms;
 
 namespace TradeSim
@@ -21,12 +21,7 @@ namespace TradeSim
 
             public string DisplayMoney => $"Amount of money: {actualamountofmoney}";
         }
-        //class BoughtCrypto
-        //{
-        //    public string boughtcrypto { get; set; }
-
-
-        //}
+        
 
         
         public MainPage()
@@ -34,26 +29,10 @@ namespace TradeSim
 
             InitializeComponent();
             
-            //var nazwa1 = ;
-            //var nazwa2 = Constants.cryptoModels.data[2].name;
-            //var nazwa3 = Constants.cryptoModels.data[3].name;
-            //var nazwa4 = Constants.cryptoModels.data[4].name;
-           // FillTheList();
-
-            //UserData User = 
-
-            //    new List<>
-            //{
-            //    new ListData {cryptoname= Constants.cryptoModels.data[1].name, cryptoprice = "Rośniee"},
-            //    new ListData {cryptoname= "sda", cryptoprice = "Rośniee"},
-            //    new ListData {cryptoname= "sda", cryptoprice = "Maleje"},
-            //    new ListData {cryptoname= "fdr", cryptoprice = "Maleje"}
-            //};
 
 
         }
 
-       // public int MyCrypto { get; set; }
 
 
 
@@ -67,7 +46,6 @@ namespace TradeSim
             
 
             bool answer = await DisplayAlert("Sprzedaż", "Czy chcesz sprzedać?", "Tak", "Nie");
-            //Debug.WriteLine("Answer: " + answer);
             if (answer)
             {
                 var button = (Button)sender;
@@ -80,10 +58,7 @@ namespace TradeSim
         {
             base.OnAppearing();
             var result = await App.RestApiService.GetCryptoAsync("a song of ice and fire");
-            //apiResult.Text = $"Liczba publikacji: {result.docs.Count()} == {result.num_found}";
-            //RestService zmienna = new RestService();
-            //var result2 = await zmienna.GetCryptoAsync(string.Empty);
-            //crypto.Text = Constants.cryptoModels.data[15].priceUsd; ;
+
 
             MainPageListView.ItemsSource = Constants.BoughtCryptos;
 

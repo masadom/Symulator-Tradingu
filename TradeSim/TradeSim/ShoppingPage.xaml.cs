@@ -7,7 +7,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using TradeSim.Models;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -20,13 +20,7 @@ namespace TradeSim
         {
             InitializeComponent();
 
-            //listView.ItemsSource = new List<ListData>
-            //{
-            //    new ListData {cryptoname= "Bitcoin",cryptoprice = "Rośniee"},
-            //    new ListData {cryptoname= "Etherium",cryptoprice = "Rośniee"},
-            //    new ListData {cryptoname= "Test1", cryptoprice = "Maleje"},
-            //    new ListData {cryptoname= "Test2", cryptoprice = "Maleje"}
-            //};
+          
             listView.ItemsSource = Constants.FillTheList();
             if(Constants.BoughtCryptos == null)
             Constants.BoughtCryptos = new ObservableCollection<ListData>();
@@ -42,7 +36,6 @@ namespace TradeSim
         {
 
             bool answer = await DisplayAlert("Question?", "Would you like to play a game", "Yes", "No");
-            //Debug.WriteLine("Answer: " + answer);
             if (answer)
             {
                 var button = (Button)sender;
@@ -50,7 +43,6 @@ namespace TradeSim
                 if(!Constants.BoughtCryptos.Any(x=>x.cryptoname==currentobject.cryptoname))
                 Constants.BoughtCryptos.Add(currentobject);
             }
-            //result.Result = true;
         }
 
         
