@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "max5o/HXfvdvfE2hrL9NXdtqH27pGAmRygfagypwuri/l7yltt+avWfCJA3JG/7oQbFQJoTUe3BMCKrCIHs5nQ==",
+  "dgSpecHash": "fGTwp4kpxIYt+/zChU79PSe0ek19I2PxqD+sUHFceI+QYF88OevMDbDWAzfTxfMsBKo/So42dyqo/9eNIkRF/Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\domin\\source\\repos\\Symulator-Tradingu\\Symulator-Tradingu\\Symulator-Tradingu\\Symulator-Tradingu.csproj",
+  "projectFilePath": "C:\\Users\\Dominik\\Source\\Repos\\masadom\\Symulator-Tradingu\\Symulator-Tradingu\\Symulator-Tradingu\\Symulator-Tradingu.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\domin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\domin\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\domin\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\domin\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\domin\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+    "C:\\Users\\Dominik\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Dominik\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Dominik\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Dominik\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Dominik\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],
   "logs": []
 }

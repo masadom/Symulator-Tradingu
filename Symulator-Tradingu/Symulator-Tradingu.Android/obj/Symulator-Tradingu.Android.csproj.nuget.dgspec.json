@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\domin\\source\\repos\\Symulator-Tradingu\\Symulator-Tradingu\\Symulator-Tradingu.Android\\Symulator-Tradingu.Android.csproj": {}
+    "C:\\Users\\Dominik\\Source\\Repos\\masadom\\Symulator-Tradingu\\Symulator-Tradingu\\Symulator-Tradingu.Android\\Symulator-Tradingu.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\domin\\source\\repos\\Symulator-Tradingu\\Symulator-Tradingu\\Symulator-Tradingu.Android\\Symulator-Tradingu.Android.csproj": {
+    "C:\\Users\\Dominik\\Source\\Repos\\masadom\\Symulator-Tradingu\\Symulator-Tradingu\\Symulator-Tradingu.Android\\Symulator-Tradingu.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\domin\\source\\repos\\Symulator-Tradingu\\Symulator-Tradingu\\Symulator-Tradingu.Android\\Symulator-Tradingu.Android.csproj",
+        "projectUniqueName": "C:\\Users\\Dominik\\Source\\Repos\\masadom\\Symulator-Tradingu\\Symulator-Tradingu\\Symulator-Tradingu.Android\\Symulator-Tradingu.Android.csproj",
         "projectName": "Symulator-Tradingu.Android",
-        "projectPath": "C:\\Users\\domin\\source\\repos\\Symulator-Tradingu\\Symulator-Tradingu\\Symulator-Tradingu.Android\\Symulator-Tradingu.Android.csproj",
-        "packagesPath": "C:\\Users\\domin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\domin\\source\\repos\\Symulator-Tradingu\\Symulator-Tradingu\\Symulator-Tradingu.Android\\obj\\",
+        "projectPath": "C:\\Users\\Dominik\\Source\\Repos\\masadom\\Symulator-Tradingu\\Symulator-Tradingu\\Symulator-Tradingu.Android\\Symulator-Tradingu.Android.csproj",
+        "packagesPath": "C:\\Users\\Dominik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dominik\\Source\\Repos\\masadom\\Symulator-Tradingu\\Symulator-Tradingu\\Symulator-Tradingu.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
-          "d:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\domin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dominik\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid13.0": {
             "projectReferences": {
-              "C:\\Users\\domin\\source\\repos\\Symulator-Tradingu\\Symulator-Tradingu\\Symulator-Tradingu\\Symulator-Tradingu.csproj": {
-                "projectPath": "C:\\Users\\domin\\source\\repos\\Symulator-Tradingu\\Symulator-Tradingu\\Symulator-Tradingu\\Symulator-Tradingu.csproj"
+              "C:\\Users\\Dominik\\Source\\Repos\\masadom\\Symulator-Tradingu\\Symulator-Tradingu\\Symulator-Tradingu\\Symulator-Tradingu.csproj": {
+                "projectPath": "C:\\Users\\Dominik\\Source\\Repos\\masadom\\Symulator-Tradingu\\Symulator-Tradingu\\Symulator-Tradingu\\Symulator-Tradingu.csproj"
               }
             }
           }
@@ -54,20 +54,20 @@
         }
       }
     },
-    "C:\\Users\\domin\\source\\repos\\Symulator-Tradingu\\Symulator-Tradingu\\Symulator-Tradingu\\Symulator-Tradingu.csproj": {
+    "C:\\Users\\Dominik\\Source\\Repos\\masadom\\Symulator-Tradingu\\Symulator-Tradingu\\Symulator-Tradingu\\Symulator-Tradingu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\domin\\source\\repos\\Symulator-Tradingu\\Symulator-Tradingu\\Symulator-Tradingu\\Symulator-Tradingu.csproj",
+        "projectUniqueName": "C:\\Users\\Dominik\\Source\\Repos\\masadom\\Symulator-Tradingu\\Symulator-Tradingu\\Symulator-Tradingu\\Symulator-Tradingu.csproj",
         "projectName": "Symulator-Tradingu",
-        "projectPath": "C:\\Users\\domin\\source\\repos\\Symulator-Tradingu\\Symulator-Tradingu\\Symulator-Tradingu\\Symulator-Tradingu.csproj",
-        "packagesPath": "C:\\Users\\domin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\domin\\source\\repos\\Symulator-Tradingu\\Symulator-Tradingu\\Symulator-Tradingu\\obj\\",
+        "projectPath": "C:\\Users\\Dominik\\Source\\Repos\\masadom\\Symulator-Tradingu\\Symulator-Tradingu\\Symulator-Tradingu\\Symulator-Tradingu.csproj",
+        "packagesPath": "C:\\Users\\Dominik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dominik\\Source\\Repos\\masadom\\Symulator-Tradingu\\Symulator-Tradingu\\Symulator-Tradingu\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "d:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\domin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dominik\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -121,7 +121,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }
